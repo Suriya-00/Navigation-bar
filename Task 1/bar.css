@@ -1,0 +1,158 @@
+body{
+  max-height:10px;
+  overflow-y:auto;
+  background:linear-gradient(60deg ,rgb(189, 246, 151),white);
+
+  
+}
+#Home{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:azure;
+  position: fixed;
+  width:100%;
+  left: 0%;
+  top: 0%;
+  opacity: 0.9;
+  z-index:1;
+  
+}
+#Home a{
+  float: right;
+  display: block;
+  color: #000;
+  padding: 14px 16px;
+  margin: 16px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+a:hover{
+  background-color:rgb(119, 222, 115);
+}
+#Home.scrolled{
+  background-color:rgb(119, 222, 115);
+}
+#active{
+  background-color:rgb(119, 222, 115);
+}
+.search{
+  float:right;
+  margin: 25px;
+  padding: 5px  5px;
+  width: 200px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  color: #000;
+}
+#hungry{
+  float: left;
+  margin: 12px;
+  height: 70px;
+  width: 150px;
+}
+
+#bg{
+  background-image:url("top-view-desk-with-copy-space.jpg");
+  background-size: cover;
+  position:absolute;
+  top:0;
+  left:0;
+  width:900px;
+  height:400px;
+  background-repeat: no-repeat;
+}
+ul{
+  padding:200px 300px ;
+  list-style-type: none;
+  position: absolute; 
+  text-decoration-thickness:20px;
+}
+.fact1{
+  color: rgb(34, 2, 75);
+  font-size:80px;
+  font-style:italic;
+  transform: translate(-10px, 0px);
+  
+}
+.fact2{
+  color: rgb(39, 87, 3);
+  font-size: 110px;
+  font-style:oblique;
+  transform: translate(-70px,0px);
+  text-decoration-thickness:70px;
+  
+}
+.fact3{
+  color: rgb(34, 2, 75);
+  font-size:60px ;
+  font-style:monospace;
+  transform: translate(40px, 0px);
+}
+.Course{
+   width: 200px;
+   height: 50px;
+   text-align: center;
+   transform: translate(20px,50px);
+   font-size:20px;
+   font-style:serif;
+   text-overflow: none;
+   border-radius:25px;
+   background-color: rgb(19, 180, 145);
+   border: 1px solid rgb(135, 8, 40);
+   transition: height width ;
+   transition: all 2s;
+   
+}
+.Course:hover{
+  display: block;
+  filter:drop-shadow(0 0 10px #fffdef);
+  background-color: rgb(8, 100, 160);
+  color:white;
+  height:60px;
+  width:200px;
+}
+.offer1{
+  height:300px;
+  width: 300px;
+  transform:translate(300px,1200px);
+  border: 3px solid rgb(0, 251, 255);
+  box-shadow:12px 8px 20px #3b05a5;
+  z-index:2;
+
+}
+.offer2{
+  width:300px;
+  height:300px;
+  transform:translate(600px,1200px);
+  border: 3px solid black;
+  box-shadow:12px 8px 20px #3b05a5;
+ z-index:2;
+ float:none;
+}
+.deals{
+  text-align: center;
+  transform:translate(40px,1140px);
+  text-shadow: #0a5300;
+  font-style:italic;
+  color:#0a688e;
+  text-decoration:#002a76;
+  font-size: 70px;  
+
+
+}
+.under{
+  transform:translate(-110px,1200px);
+  list-style-type: circle;
+  color:#380381;
+  font-size:40px;
+  font-style: italic;
+}
+#Learn{
+  height: 70px;
+  width: 90px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
